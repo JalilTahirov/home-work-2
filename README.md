@@ -1,5 +1,5 @@
 # home-work-2
-3rd of October 2019, Basics of JavaScript lesson homework
+3rd October 2019, Basics of JavaScript lesson homework
 
 https://www.youtube.com/watch?v=_1Liip_FZiU&feature=youtu.be
 
