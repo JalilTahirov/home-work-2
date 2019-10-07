@@ -81,4 +81,18 @@ let ar = [1,2,3,4,5,6];
 console.log(ar);
 
 // 9.  Отсортировать массив (пузырьком (Bubble), выбором (Select), вставками (Insert)) 
-
+/////Bubble
+let ar = [3,4,6,1,9,3,2,5,7];
+let sortedCount = 0;
+while(sortedCount!=ar.length){
+  for(let i = 0; i<ar.length-1; i++){
+    if(ar[i]>ar[i+1]){
+      sorted = false;
+      let temp = ar[i+1];
+      ar[i+1] = ar[i];
+      ar[i] = temp;
+      sorted = false;
+    }else{sortedCount++;}
+  }  
+}
+console.log(ar);
